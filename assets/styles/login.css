@@ -1,0 +1,118 @@
+:root{
+    --text-nav:#c5b8b8;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-image: url(/assets/imgs/fondo.jpg);
+}
+.header__logo{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    opacity: 0.80;
+}
+.header__logo img{
+    width: 70px;
+    margin-left: 40px;
+}
+.main{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main__div__login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.80;
+    border-radius: 10px;
+    height: 50%;
+    width: 20%;
+    max-width: 500px;
+    min-width: 300px;    
+    gap: 20px;
+}
+.main__div__register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.80;
+    border-radius: 10px;
+    height: 70%;
+    width: 20%;
+    max-width: 500px;
+    min-width: 300px;   
+    gap: 10px;
+}
+
+.main__div--input{
+    height: 30px;
+    border-radius: 10px;
+    opacity: 0.80;
+}
+.main__button{
+    margin-top:10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+.main__button a{
+    color: black;
+}
+.main__div__button{
+    padding: 3px 2px;
+    width: 80px;
+    border-radius: 10px;
+}
+.button__register button{
+    width: 100%;
+    border-radius: 10px;
+    padding: 3px 5px;
+}
+.button__register a{
+    color: black;
+    font-weight: bold;
+}
+footer{
+    background-color: black;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 100px;
+    border-radius: 10px;
+}
+.instagram img{
+    width: 70px;
+}
+.instagram{
+    display: flex;
+    align-items: center;
+    color: var(--text-nav);
+}
+.logo-inicio{
+    color: var(--text-nav);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.logo-inicio img{
+    width: 70px;
+}
+
+
